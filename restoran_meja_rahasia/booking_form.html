@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+    <title>Meja Rahasia Reservation Form</title>
+    <style>
+        #inputName {
+            background-color: #F7B787;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="m-5">
+        <h4 class="heading" style="text-align: center; font-weight:bolder;">Reservation Form</h4>
+        <div class="row mb-3">
+            <label for="inputName" class="col-sm-2 col-form-label">Guest Name : </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputEmailAddress" class="col-sm-2 col-form-label">Email Address : </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputName" placeholder="Enter Email Address">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputPhoneNumber" class="col-sm-2 col-form-label">Phone Number :  </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputName" placeholder="Enter Phone Number">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 ">
+                <label for="formGroupExampleInput" class="form-label">Number of Guest : </label>
+                <input type="text" class="form-control" id="inputName" placeholder="Enter the Number">
+            </div>
+            <div class="col-lg-4 ">
+                <label for="formGroupExampleInput" class="form-label">Number of Child : </label>
+                <input type="text" class="form-control" id="inputName" placeholder="Enter the Number">
+            </div>
+            <div class="col-lg-4 ">
+                <label for="formGroupExampleInput" class="form-label">Food Package : </label>
+                <select class="form-select" id="inputName" aria-label="Default select example">
+                    <option selected>Select Food Type</option>
+                    <option value="1">Package 1</option>
+                    <option value="2">Package 2</option>
+                    <option value="3">Package 3</option>
+                    <option value="3">Package 4</option>
+                    <option value="3">Package 5</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+        <div class="row mb-3">
+            <label for="inputName" style="width:30%" class="col-sm-2 col-form-label">Reserved Date : </label>
+            <div class="col-sm-4" style="width:63%">
+                <input type="text" class="form-control w-6" id="inputName" placeholder="Select your date"onfocus="this.type='date'" onblur="this.type='text'">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="inputName" style="width:30%" class="col-sm-2 col-form-label">Reserved Time : </label>
+            <div class="col-sm-4" style="width:63%">
+                <input type="text" class="form-control w-6" id="inputName" placeholder="Select your time"onfocus="this.type='time'" onblur="this.type='text'">
+            </div>
+        </div>
+            
+    </div>
+        <div class="m-5" style="text-align: center; border: radius 500px;">
+            <button type="button" class="btn btn-primary" style="width: 30%;">Submit</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
